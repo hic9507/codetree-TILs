@@ -5,4 +5,4 @@ if n >= 3000:
 elif 3000 > n >= 1000 :
     print('mask')
 else:
-    ('no')
+    print('no')
