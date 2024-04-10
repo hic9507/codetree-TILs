@@ -6,6 +6,7 @@
 # lst = list(map(int, input().split()))
 # print(f"{sum(lst)} {sum(lst)/len(lst)}")
 
+### 3번
 arr = input().split()
 a = int(arr[0])
 b = int(arr[1])
