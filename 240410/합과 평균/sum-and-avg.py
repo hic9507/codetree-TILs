@@ -1,6 +1,6 @@
 ### 1번
 a, b = map(int, input().split())
-print(a+b, (a+b)/2)
+print(a+b, (a+b)/2) # 102ms
 
 ### 2번
 # lst = list(map(int, input().split()))
