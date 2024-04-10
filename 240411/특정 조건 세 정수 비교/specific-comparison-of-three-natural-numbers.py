@@ -15,7 +15,7 @@ if a < b and a < c:
 else:
     print(0, end=" ")
 
-if a == b == c:
+if a == b and a == c:
     print(1)
 else:
     print(0)
