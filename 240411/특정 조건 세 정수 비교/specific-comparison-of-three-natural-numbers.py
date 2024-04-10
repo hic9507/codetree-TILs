@@ -10,7 +10,7 @@ a, b, c = map(int, input().split())
 # else:
 #     print(0)
 
-if a < b and a < c:
+if a <= b and a <= c:
     print(1, end=" ")
 else:
     print(0, end=" ")
