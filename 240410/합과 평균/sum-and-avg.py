@@ -1,10 +1,10 @@
 ### 1번
-# a, b = map(int, input().split())
-# print(a+b, (a+b)/2)
+a, b = map(int, input().split())
+print(a+b, (a+b)/2)
 
 ### 2번
-lst = list(map(int, input().split()))
-print(f"{sum(lst)} {sum(lst)/len(lst)}")
+# lst = list(map(int, input().split()))
+# print(f"{sum(lst)} {sum(lst)/len(lst)}") # 128ms
 
 ### 3번
 # arr = input().split()
