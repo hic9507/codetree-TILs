@@ -19,4 +19,4 @@ c = int(arr[2])
 # print(((a+b+c) // 3)) # 131ms
 
 print(f"{a+b+c}")
-print(f"{(a+b+c) // 3}")
+print(f"{(a+b+c) // 3}") # 106ms
