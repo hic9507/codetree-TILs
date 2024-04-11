@@ -17,3 +17,5 @@ elif b_flu == 'Y' and b_tem >= 37:
         print('E')
     else:
         print('N')
+else:
+    print('N')
