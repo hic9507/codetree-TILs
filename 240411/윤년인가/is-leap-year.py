@@ -7,13 +7,21 @@ y = int(input())
 #     print('false')
 
 ##### 중첩조건문
+# if y % 4 == 0:
+#     if y % 100 == 0:
+#         if y % 400 == 0:
+#             print('true')
+#         else:
+#             print('false')
+#     else:
+#         print('true')
+# else:
+#     print('false')
+
+##### if elif else
 if y % 4 == 0:
-    if y % 100 == 0:
-        if y % 400 == 0:
-            print('true')
-        else:
-            print('false')
-    else:
-        print('true')
+    print('true')
+elif y % 100 != 100 == 0 and y % 400 == 0:
+    print('true')
 else:
     print('false')
