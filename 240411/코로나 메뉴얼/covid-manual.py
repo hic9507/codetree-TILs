@@ -14,6 +14,6 @@ if a_flu == 'Y' and a_tem >= 37:
 
 elif b_flu == 'Y' and b_tem >= 37:
     if c_flu == 'Y' and c_tem >= 37:
-        print('Y')
+        print('E')
     else:
         print('N')
