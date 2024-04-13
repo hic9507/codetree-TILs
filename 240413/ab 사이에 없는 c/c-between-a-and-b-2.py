@@ -1,12 +1,12 @@
 arr = input().split()
 a, b, c = int(arr[0]), int(arr[1]), int(arr[2])
-satisfied = False
+satisfied = True
 
 for i in range(a, b+1):
-    if c % i == 0:
-        satisfied = True
+    if c % i != 0:
+        satisfied = False
 
-if satisfied == True:
+if satisfied == False:
     print('YES')
 else:
     print('NO')
