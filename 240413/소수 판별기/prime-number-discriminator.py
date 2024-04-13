@@ -5,7 +5,7 @@ satisfied = True
 for i in range(1, n+1):
     if n % 1 == 0 and n % n == 0:
         continue
-    else:
+    elif n % i == 0:
         satisfied = False
 
 if satisfied == True:
