@@ -10,7 +10,7 @@ cnt = 0
 #         break
 
 #### while문
-while n >= 1:
+while n > 1:
     cnt += 1
     n //= cnt
 print(cnt)
