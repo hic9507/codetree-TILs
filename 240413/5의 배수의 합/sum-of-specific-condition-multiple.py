@@ -6,8 +6,8 @@ if a >= b:
         if i % 5 == 0:
             sum_val += i
 else:
-    for i in range(b, a+1):
+    for i in range(b, a-1):
         if i % 5 == 0:
             sum_val += i
-            
+
 print(sum_val)
