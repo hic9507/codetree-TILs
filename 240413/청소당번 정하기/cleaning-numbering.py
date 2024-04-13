@@ -15,7 +15,7 @@ cnt2, cnt3, cnt12 = 0, 0, 0
 
 # print(a, b, c)
 
-for i in range(n):
+for i in range(n+1):
     if i != 0 and i % 12 == 0:
         cnt12 += 1
     else:
