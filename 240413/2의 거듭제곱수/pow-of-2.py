@@ -1,8 +1,21 @@
+##### 방법 1.
+# n = int(input())
+# a = 0
+
+# while True:
+#     if 2**a == n:
+#         print(a)
+#         break
+#     a += 1
+
+##### 방법 2.
 n = int(input())
-a = 0
+x = 1
+cnt = 0
 
 while True:
-    if 2**a == n:
-        print(a)
+    if n == x:
+        print(cnt)
         break
-    a += 1
+    x *= 2
+    cnt += 1
