@@ -19,6 +19,7 @@ satisfied = True
 while i < n:
     if n % 2 == 0:
         satisfied = False
+        break
     i += 1
 
 if satisfied == True:
