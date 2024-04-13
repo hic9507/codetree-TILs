@@ -13,11 +13,11 @@ n = int(input())
 # else:
 #     print('C')
 
-i = 1
+i = 2
 satisfied = True
 
 while i < n:
-    if n % 2 == 0:
+    if n % i == 0:
         satisfied = False
         break
     i += 1
